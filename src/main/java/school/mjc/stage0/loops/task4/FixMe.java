@@ -7,12 +7,10 @@ public class FixMe {
                 System.out.println(i);
                 continue;
             } else if (i == 7) {
-                break;
-            }
                 System.out.println("last");
                 System.out.println("will I be printed?");
-
-
+                break;
+            }
         }
     }
 }
